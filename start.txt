@@ -1,0 +1,4 @@
+#!/bin/bash  
+sudo screen -wipe
+g++ step5.cpp -o step5 -lpthread
+sudo screen -dm -S webjudge ./step5
